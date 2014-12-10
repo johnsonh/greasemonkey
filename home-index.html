@@ -68,8 +68,8 @@
 
         <div class="row">
 
-            <div class="col-xs-3">
-                <p class="lead">Shop Name</p>
+            <div class="col-md-3">
+                <p class="lead">Filter Your Results</p>
 
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="Search for Mechanic">
@@ -112,13 +112,12 @@
                     </ul>
                 </div><!-- /input-group -->
 
-                <label class="control-label"><strong>Time of Day:</strong></label>
-                <div class="btn-toolbar">
-                    <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                        Time
-                        <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="Time of Day">
+                <div class="btn-group input-group" id="all-sectors">
+                    <button class="btn btn-larger btn-default title">Time of Day</button>
+                    <button class="btn btn-larger btn-default dropdown-toggle" data-toggle="dropdown">
+                       <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
                         <li><a href="#">1</a></li>
                         <li><a href="#">2</a></li>
                         <li><a href="#">3</a></li>
@@ -132,23 +131,21 @@
                         <li><a href="#">11</a></li>
                         <li><a href="#">12</a></li>
                     </ul>
-                    <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                        AM/PM
-                        <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="AM/PM">
+                </div>
+
+                <div class="btn-group input-group" id="all-grids">
+                    <button class="btn btn-larger btn-default title">AM/PM</button>
+                    <button class="btn btn-larger btn-default dropdown-toggle" data-toggle="dropdown">
+                       <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
                         <li><a href="#">AM</a></li>
                         <li><a href="#">PM</a></li>
                     </ul>
                 </div>
 
-
-                <!--
-                distance
-                price
-                availability
-            -->
-            </div>
+                <button type="submit" align="right" class="btn btn-lg">Filter</button>
+            </div> <!-- search bar -->
 
             <div class="col-md-9">
 
