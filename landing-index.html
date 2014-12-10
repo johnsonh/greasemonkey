@@ -93,50 +93,98 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Have a Problem?</h2>
+                    <h2 class="section-heading">Select Your Service Options</h2>
                     <p class="lead">
                     
-                    <div class="dropdown">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-    Make
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" role="Make" aria-labelledby="dropdownMenu1">
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
-  </ul>
+<div class="btn-group" id="all-sectors">
+    <button class="btn btn-default btn-default title">Make</button>
+    <button class="btn btn-default btn-default dropdown-toggle" data-toggle="dropdown">
+       <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+        <li><a class="camera-filter" data-filter-type="camera-Joe0">Acura</a></li>
+            <li><a class="camera-filter" data-filter-type="North-Joe0">Honda</a></li>
+        <li><a class="camera-filter" data-filter-type="East-Joe0">BMW</a></li>
+    </ul>
+</div>
 
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="true">
-    Model
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" role="Model" aria-labelledby="dropdownMenu2">
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
-  </ul>
+<div class="btn-group" id="all-grids">
+    <button class="btn btn-default btn-default title">Model</button>
+    <button class="btn btn-default btn-default dropdown-toggle" data-toggle="dropdown">
+       <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+        <li><a class="camera-filter" data-filter-type="">TL</a></li>
+    </ul>
+</div>
 
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-    Year
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" role="Year" aria-labelledby="dropdownMenu1">
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
-  </ul>
+<div class="btn-group" id="all-cameras">
+    <button class="btn btn-default btn-default title">Year</button>
+    <button class="btn btn-default btn-default dropdown-toggle" data-toggle="dropdown">
+       <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+        <li><a  class="camera-filter" data-filter-type="all">2013</a></li>
+        <li><a href="#" class="camera-filter" data-filter-type="camera-Joe0">2012</a></li>
+    </ul>
+    <br>
+</div>
+
+                    <a class="btn btn-default btn-default"> <span class="network-name">Select Vehicle</span></a>
+                    
+                    <br>
+                    <br>
+                    
+                    <div class="btn-group" id="all-cameras">
+    <button class="btn btn-default btn-default title">Select Problem Location</button>
+    <button class="btn btn-default btn-default dropdown-toggle" data-toggle="dropdown">
+       <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+        <li><a  class="camera-filter" data-filter-type="all">Cooling and Heating</a></li>
+        <li><a  class="camera-filter" data-filter-type="camera-Joe0">Oil Change</a></li>
+        <li><a  class="camera-filter" data-filter-type="">Engine Parts</a></li>
+        <li><a  class="camera-filter" data-filter-type="">Brakes</a></li>
+        <li><a  class="camera-filter" data-filter-type="">Exhaust System</a></li>
+        <li><a  class="camera-filter" data-filter-type="">Suspension and Steering</a></li>
+    </ul>
+    <div class="btn-group" id="all-came">
+        <button class="btn btn-default btn-default title">Select Problem</button>
+    <button class="btn btn-default btn-default dropdown-toggle" data-toggle="dropdown">
+       <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+        <li><a  class="camera-filter" data-filter-type="all">Alignment</a></li>
+        <li><a class="camera-filter" data-filter-type="camera-Joe0">Oil Change</a></li>
+        <li><a  class="camera-filter" data-filter-type="">Brake Change</a></li>
+        <li><a  class="camera-filter" data-filter-type="">Alignment</a></li>
+        <li><a  class="camera-filter" data-filter-type="">Tire Change</a></li>
+        <li><a  class="camera-filter" data-filter-type="">Catalytic Converter replacement</a></li>
+    </ul>
+    
+    
+</div>
+                    <a  class="btn btn-default btn-default"> <span class="network-name">Add to List</span></a>
+
 </div>
 
 
+<br>
+<br>
                     
-                    //ADD 3 DROPDOWN BOXES HERE AND SUBMIT BUTTON - SUBMIT BUTTON LEADS TO HOME-INDEX
-                    <a href="#" class="btn btn-default btn-lg"> <span class="network-name">Search</span></a></p>
+                    <ul class="list-group">
+  <li class="list-group-item">Oil Change</li>
+  <li class="list-group-item">Tire Replacement (all)</li>
+</ul>
+                    
+                   	                    <a  href = "home-index.html" class="btn btn-default btn-default"> <span class="network-name">Search</span></a>
                 </div>
+                <br>
+                
+
+                <!-- <div class="col-lg-5 col-lg-offset-2 col-sm-6"> -->
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+
                     <img src="img/parts-we-stock_cutaway.gif">
                 </div>
             </div>
@@ -195,7 +243,7 @@
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
+                    <p class="copyright text-muted small">Copyright &copy; GreaseMonkey 2014. All Rights Reserved</p>
                 </div>
             </div>
         </div>
